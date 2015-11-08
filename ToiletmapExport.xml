@@ -1,0 +1,1289 @@
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:aglsterms="http://www.agls.gov.au/agls/terms/" xmlns:agentterms="http://www.agls.gov.au/agls/agentterms/" xmlns:availterms="http://www.agls.gov.au/agls/availterms/" xmlns:adminterms="http://www.agls.gov.au/agls/adminterms/" xmlns:dct="http://purl.org/dc/terms/" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd    http://www.opengis.net/gml http://www.opengis.net/gml/gml.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>553b3049-2b8b-46a2-95e6-640d7986a8c1</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode">
+            utf8
+        </gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset
+        </gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+                <gco:CharacterString>Department of Social Services </gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>data.requests@dss.gov.au</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+                </gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:Date>2015-11-05T23:06:15.874686</gco:Date>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005,
+            Geographic information - Metadata
+        </gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.1</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>national-public-toilet-map</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2013-05-12T08:42:38.802401</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <edition>
+                        <gco:CharacterString>5b49eae6-25ca-4b33-b950-0c738a6eeddb</gco:CharacterString>
+                    </edition>
+                    <identifier>
+                        <MD_Identifier>
+                            <code>
+                                <gco:CharacterString>553b3049-2b8b-46a2-95e6-640d7986a8c1</gco:CharacterString>
+                            </code>
+                        </MD_Identifier>
+                    </identifier>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <individualName>
+                                <gco:CharacterString>Department of Social Services </gco:CharacterString>
+                            </individualName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>    
+
+The National Public Toilet Map shows the location of more than 17,000 public
+and private public toilet facilities across Australia. Details of toilet
+facilities can also be found along major travel routes and for shorter
+journeys as well. Useful information is provided about each toilet, such as
+location, opening hours, availability of baby change rooms, accessibility for
+people with disabilities and the details of other nearby toilets.
+
+**Licence**
+
+To download the **National Public Toilet Map** dataset, you must agree to the
+following terms and conditions:
+
+These are the terms and conditions (the Terms) upon which the Commonwealth of
+Australia represented by the Department of Finance and Deregulation (ABN 61
+970 632 495) of Canberra A.C.T. (the Commonwealth, us, we or our as the
+context requires) makes available to you the Database referred to below. Your
+right to access the Database for the Permitted Purpose is conditional upon you
+first agreeing to the Terms. You may not access the Database if you do not
+accept the Terms.
+
+By accessing the database you will be deemed to have accepted the Terms.
+
+By accepting the Terms you warrant to us that you are of legal age and have
+capacity to form a binding contract with the Commonwealth.
+
+Before continuing you should print or save a local copy of the Terms for your
+records.
+
+**1. Definitions**
+
+Commencement Date
+
+means the date you accept the Terms (or are deemed to accept the Terms).
+
+Database
+
+means the database (known as the National Public Toilet Database) owned by and
+provided on behalf of the Commonwealth including any updates provided by or on
+behalf of the Commonwealth, that records some or all of the following details
+for public toilets in Australia:
+
+(a) toilet name;
+
+(b) address;
+
+(c) latitude and longitude;
+
+(d) general toilet features;
+
+(e) location;
+
+(f) accessibility;
+
+(g) opening hours;
+
+(h) additional features (e.g. showers, baby change facilities etc);
+
+(i) notes (e.g. coin operated showers etc).
+
+Derivative Product
+
+means any product or service that you may design or build, or have designed or
+built on your behalf, that includes or otherwise incorporates the Database (or
+part of the Database).
+
+Intellectual Property Rights
+
+(or **IPRs**) means all intellectual property rights, including but not
+limited to all rights existing or arising in respect of the Database whether
+or not such rights are registered or capable of being registered.
+
+Permitted Purpose
+
+means the right to:
+
+(a) use, adapt, reproduce, publish and communicate to the public the Database
+in any format (including any part of the Database); and
+
+(b) design and build, or have designed and built on your behalf, any
+Derivative Products.
+
+Terms
+
+means the terms and conditions of this licence.
+
+**2. Commencement**
+
+2.1 The Terms commence on the Commencement Date and continue unless and until
+terminated in accordance with clause 8.
+
+**3. Grant of Licence**
+
+3.1 We grant you a non-exclusive, perpetual, royalty free, non-transferable
+and world-wide licence to access the Database for the Permitted Purpose.
+
+3.2 You may not sublicense your rights under these Terms to any person. If you
+require another person to access the Database for the Permitted Purpose
+(including a person you engage to design or build a Derivative Product on your
+behalf), that person must obtain a copy of the Database from the
+data.australia.gov.au website and comply with the Terms of this licence.
+
+**4. Exclusion of liability**
+
+4.1 You agree that most of the data and information contained in the Database
+is provided by organisations and other entities on a voluntary and ad hoc
+basis.
+
+4.2 We provide the Database to you on the basis that:
+
+(a) no warranty is given that the Database is accurate, complete or fit for
+any particular purpose, including the Permitted Purpose; and
+
+(b) you are responsible for and you accept all risks arising in connection
+with your access and disclosure of the Database; and
+
+(c) we may cease to make the Database available (or cease to make updates to
+the Database) at any time.
+
+**5. Currency of data**
+
+5.1 If a purpose for which you access the Database is to assist people to
+locate or know the features of public toilets, you must update your copy of
+the Database and any Derivative Products as soon as reasonably practicable
+after an update to the Database is made available on the data.australia.gov.au
+website (or successor site).
+
+**6. Intellectual Property Rights**
+
+6.1 You acknowledge and agree that the Database represents the Commonwealthas
+exclusive property and that the Commonwealth owns any and all IPRs in the
+Database.
+
+**7. User Disclaimer**
+
+7.1 You must ensure that if and when you make any Derivative Product available
+to third parties that you do so on terms that ensure users they understand
+that we do not guarantee, and accept no risk in respect of, the accuracy,
+currency or completeness of the Derivative Product.
+
+**8. Termination**
+
+8.1 We may by notice immediately terminate these Terms if you breach any
+obligation contained in these Terms.
+
+8.2 In the event of termination of these Terms, you may continue to exercise
+your licensed rights in respect of your Derivative Products in existence prior
+to the date of expiry or termination but you have no right to access the Data
+
+base for any other purpose (including to update your Derivative Products).
+
+**9. General Provisions**
+
+9.1 These Terms are governed by, and are to be construed in accordance with,
+the law of the Australian Capital Territory.
+
+9.2 We may vary these terms at any time by reasonable notice to you.
+
+</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:language>
+                <gco:CharacterString>eng</gco:CharacterString>
+            </gmd:language>
+            <gmd:status>
+                <gco:CharacterString>active</gco:CharacterString>
+            </gmd:status>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="TP01">
+                                    <gml:beginPosition>2013-08-01</gml:beginPosition>
+                                    <gml:endPosition>2015-06-01</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <resourceMaintenance>
+        <MD_MaintenanceInformation>
+            <maintenanceAndUpdateFrequency>
+                <MD_MaintenanceFrequencyCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="monthly">monthly</MD_MaintenanceFrequencyCode>
+            </maintenanceAndUpdateFrequency>
+        </MD_MaintenanceInformation>
+    </resourceMaintenance>
+    <descriptiveKeywords>
+        <MD_Keywords>
+            <keyword>
+                <gco:CharacterString>continence</gco:CharacterString>
+            </keyword>
+            <keyword>
+                <gco:CharacterString>health</gco:CharacterString>
+            </keyword>
+            <keyword>
+                <gco:CharacterString>toilet</gco:CharacterString>
+            </keyword>
+        </MD_Keywords>
+    </descriptiveKeywords>
+    <resourceConstraints>
+        <MD_LegalConstraints>
+            <accessConstraints>
+                <MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</MD_RestrictionCode>
+            </accessConstraints>
+            <otherConstraints>
+                <gco:CharacterString>license</gco:CharacterString>
+            </otherConstraints>
+        </MD_LegalConstraints>
+    </resourceConstraints>
+    <resourceConstraints>
+        <MD_LegalConstraints>
+            <useConstraints>
+                <MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</MD_RestrictionCode>
+            </useConstraints>
+            <useConstraints>
+                <MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</MD_RestrictionCode>
+            </useConstraints>
+            <otherConstraints>
+                <gco:CharacterString>Creative Commons Attribution 3.0 Australia Licence</gco:CharacterString>
+            </otherConstraints>
+        </MD_LegalConstraints>
+    </resourceConstraints>
+    <resourceConstraints>
+        <MD_SecurityConstraints>
+            <classification>
+                <MD_ClassificationCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</MD_ClassificationCode>
+            </classification>
+        </MD_SecurityConstraints>
+    </resourceConstraints>
+    <topicCategory>
+        <MD_TopicCategoryCode>geoscientificInformation</MD_TopicCategoryCode>
+    </topicCategory>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>ZIP</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/916d711f-c38c-4f4f-9586-47938d80bf70/download/toiletmapexport.zip</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>Toiletmap.zip</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString>Latest version of The National Public Toilet Map data zip</gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>CSV</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/9fee88ed-dc75-4b6c-88b7-c8a6f04f86e7/download/toiletmapexport.zip</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>Latest CSV Export</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString>Latest version of The National Public Toilet Map data in CSV format</gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/1fc31ec4-a7e8-438c-8bf5-3c1349edff01/download/The-National-Public-Toilet-Map-XML-export-for-April-2015.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for August, 2015</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for August, 2015</gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>http://data.gov.au/storage/f/2013-08-08T23%3A38%3A42.048Z/toiletmapexport-130801-090000.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for August 2013</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString>The NPTM XML export as of the 1st August 2013.</gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>RDF</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>http://data.gov.au/storage/f/2013-09-15T21%3A53%3A54.888Z/toiletmapexport-130901-090001.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for September 2013</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString></gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>http://data.gov.au/storage/f/2013-10-01T01%3A56%3A24.368Z/toiletmapexport-131001-090000.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real>1752869</gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for October 2013 XML</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString></gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>http://data.gov.au/storage/f/2013-11-14T05%3A43%3A07.219Z/toiletmapexport-131112-042111.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real>1169248</gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for November 2013</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString></gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>http://data.gov.au/storage/f/2013-12-12T05%3A33%3A42.356Z/toiletmapexport-131202-105521.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real>1169243</gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for December 2013</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString></gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>http://data.gov.au/storage/f/2014-01-09T21%3A34%3A54.208Z/toiletmapexport-140109-053413.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for January 2014</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString></gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>http://data.gov.au/storage/f/2014-02-02T22%3A22%3A28.311Z/toiletmapexport-140201-090000.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for February 2014</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString></gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/9fc54f89-4e73-48cd-ac3b-5c861f290c74/download/toiletmapexport141101090000.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for October</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString></gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/9045fa93-f8d3-440a-969f-e8d6f904de5d/download/toiletmapexport141201090000.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for November 2014</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString></gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/8f27dc54-d79e-4cb4-84cd-469669cac5e1/download/toiletmapexport150101090000.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for December 2014</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString></gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/2d9ae981-e03d-4a35-9b4f-92ad6cbc00cb/download/thenationalpublictoiletmapxmlexportforjanuary2015.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for January 2015</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for January 2015</gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/ff2ddff7-a161-4d2b-aa91-e2e22f95f0f7/download/thenationalpublictoiletmapxmlexportforfebruary2015.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for February 2015</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for February 2015</gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/45e6fba3-4902-4fe0-9900-98eefd330bd8/download/thenationalpublictoiletmapxmlexportformarch2015.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for March 2015</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for March 2015</gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/7fd337e2-c667-4a52-9ab5-983e3c423742/download/thenationalpublictoiletmapxmlexportforapril2015.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for April 2015</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for April 2015</gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/487721f8-b6b0-4c0c-8543-9710de85322d/download/The-National-Public-Toilet-Map-XML-export-for-May-2015.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for May 2015</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for May 2015</gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/4fa8ad3a-f8ff-4508-9fd5-948df82adc97/download/The-National-Public-Toilet-Map-XML-export-for-June-2015.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for June 2015</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for June 2015</gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/09af526d-4ae7-4284-ad64-e05c63386617/download/The-National-Public-Toilet-Map-XML-export-for-July-2015.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for July 2015</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for July 2015</gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/388ea4e3-b871-4d91-a2a3-d62d83fb0dfb/download/ToiletmapExport150901090000.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for August, 2015</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for August, 2015</gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/87659c63-7660-4d82-a85c-9a62c591a53c/download/The-National-Public-Toilet-Map-XML-export-for-September-2015.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for September 2015</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString></gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>XML</gco:CharacterString>
+                        </gmd:name>
+                        <gmd:version gco:nilReason="missing">
+                            <gco:CharacterString></gco:CharacterString>
+                        </gmd:version>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                    <gmd:URL>https://data.gov.au/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/9ccb1384-b1d6-47ff-a0ce-871573cff250/download/The-national-Public-Toilet-Map-XML-export-for-November-2015.xml</gmd:URL>
+                                </gmd:linkage>
+                                <protocol>
+                                    <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                                </protocol>
+                                <gmd:transferSize>
+                                    <gco:Real></gco:Real>
+                                </gmd:transferSize>
+                                <gmd:name>
+                                    <gco:CharacterString>The National Public Toilet Map XML export for November 2015</gco:CharacterString>
+                                </gmd:name>
+                                <gmd:description>
+                                    <gco:CharacterString></gco:CharacterString>
+                                </gmd:description>
+                                <function>
+                                    <CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                                </function>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+            <gmd:scope>
+                <gmd:DQ_Scope>
+                    <gmd:level>
+                        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="domainCode">dataset</gmd:MD_ScopeCode>
+                    </gmd:level>
+                    <gmd:levelDescription>
+                        <gmd:MD_ScopeDescription>
+                            <gmd:dataset gco:nilReason="missing">
+                                <gco:CharacterString></gco:CharacterString>
+                            </gmd:dataset>
+                        </gmd:MD_ScopeDescription>
+                    </gmd:levelDescription>
+                </gmd:DQ_Scope>
+            </gmd:scope>
+            <gmd:lineage>
+                <gmd:LI_Lineage>
+                    <gmd:statement gco:nilReason="missing">
+                        <gco:CharacterString></gco:CharacterString>
+                    </gmd:statement>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description gco:nilReason="missing">
+                                <gco:CharacterString></gco:CharacterString>
+                            </gmd:description>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                </gmd:LI_Lineage>
+            </gmd:lineage>
+        </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <metadataConstraints>
+        <MD_SecurityConstraints>
+            <classification>
+                <MD_ClassificationCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</MD_ClassificationCode>
+            </classification>
+        </MD_SecurityConstraints>
+    </metadataConstraints>
+</gmd:MD_Metadata>
