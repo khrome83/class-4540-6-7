@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Toilets xmlns="http://toiletmap.gov.au/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Toilet
+           Latitude="-33.33675967"
+           Longitude="116.7319695"
+           Town="Darkan"
+           State="Western Australia"
+           Country="Australia"
+           Name="Basketball Courts"
+           FacilityType="Sporting facility"/>
+   <Toilet
+           Latitude="-33.33768108"
+           Longitude="116.7414388"
+           Town="Darkan"
+           State="Western Australia"
+           Country="Australia"
+           Name="Hall"
+           FacilityType="Other"/>
+   <Toilet
+           Latitude="-33.33580636"
+           Longitude="116.7324461"
+           Town="Darkan"
+           State="Western Australia"
+           Country="Australia"
+           Name="Football Oval"
+           FacilityType="Sporting facility"/>
+   <Toilet
+           Latitude="-33.33564476"
+           Longitude="116.74226125"
+           Town="Darkan"
+           State="Western Australia"
+           Country="Australia"
+           Name="Railway Reserve"
+           FacilityType="Park or reserve"/>
+</Toilets>
